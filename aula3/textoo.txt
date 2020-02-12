@@ -1,0 +1,9 @@
+El comando "cp" sirve para copiar ficheros o directorios.
+El comando "rm" sirve para borrar ficheros de algun directorio.
+El comando "mv" sirve para renombrar ficheros.
+El comando "mkdir" sirve para crear directorios.
+El comando "rmdir" sirve para borrar directorios.
+El comando "touch" sirve para crear ficheros.
+El comando "ls" muestra la lista de todo lo que contiene un directorio.
+
+
