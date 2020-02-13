@@ -1,0 +1,2 @@
+Primero creamos un archivo llamado forever.sh y dentro de el escribimos el codigo, luego le damos permiso al fichero para luego ejecutarlo.
+Una vez ejecutado, lo ponemos en segundo plano primero aplicando Ctrl+z y luego escribiendo el comando bg, finalmente usamos el comando ps para ver el PID del fichero y luego lo matamos con el comando Kill PID

@@ -1,0 +1,11 @@
+1.
+- El comando que sirve para ver que procesos del usuario se estan ejecutando es: 'ps -fu usuario'
+- El comando que muestra todos los procesos de todos los usuarios es: 'ps -ef'
+- Para abrir y ver directamente el  PID de firefox, escribimos el comando: 'firefox &'
+- El comando para matar fireforx es: 'kill PID firefox'
+2. Primero iniciamos el gedit y en la terminal utilizamos Ctrl+z para detenerlo, luego lo llevamos a segundo plano con el comando bg y finalmente con el comando fg lo llevamos a primer plano.
+3. Se usa el comando top para ver los procesos que estan consumiendo los recursos.
+4. Usamos el comando man top para ver todas las opciones que se puede utilizar de top.
+5. Para matar un proceso del top, apretamos k y luego escribimos el PID, a continuacion apretamos enter.
+ 
+ 
