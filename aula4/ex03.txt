@@ -1,0 +1,17 @@
+1. Para saber cual es el nombre de la maquina virtual, escribimos el comando "hostname".
+2. Para saber la hora y la fecha, utilizamos el comando "date".
+3. Para saber donde esta el comando cp, utilizamos el comando "which cp" y en este caso sale como resultado: /usr/bin/cp
+4. Existen 10 usos para el comando find:
+   - Para encontrar algun archivo en un directorio especifico: find ./ ex01.txt
+   - Para encontrar un archivo con algun nivel de profundidad: ind ./test -maxdepth 1 -name *.php.
+   - En en caso de que se quiera combinar varios criterios de busqueda: find ./test -name 'comandofind*' ! -name '*.php'
+   - Para localizar solamente archivos: find ./test -type f -name "exemplo*", y para localizar solamente directorios: find ./test -type d -name "exemplo*".
+   - Si se quiere localizar archivos ocultos: find ~ -type f -name ".*"
+   - Para encontrar archivos con determinados permisos utilizamos el siguiente comando: find . -type f -perm 0740
+   - En caso de que se quiera encontrar archivos basados en propietarios: find . –user erick.
+   - Para encontrar archivos que pertenecen a un grupo: find /var/www –group lfdg
+   - Para encontrar archivos y directorios en funcion a los periodos de modificacion, se los busca por dias, por ejemplo para archivos modificados en los ultimos 5 dias: find / -ntime 5.
+   - Para encontrar archivos en base al tamano debemos indicar el tamano que se quiere buscar, por ejemplo: find / -size 40M.
+5. Para localizar todos los archivos con la extension .txt  de todos los directorios, primero debemos dirigirnos al directorio principal y desde ahi aplicar el comando: find -name '*.txt'.
+6. Para borrar los archivos con la extension .so, debemos aplicar el siguiente comando: find -name *.so -exec rm {} \;
+ 

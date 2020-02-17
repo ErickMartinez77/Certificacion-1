@@ -1,0 +1,5 @@
+1. Para ver cuantas palabras, caracteres y lineas del archivo nombres.txt de aula3, debemos dirigirnos al directorio aula3 y aplicar el comando: wc nombres.txt.
+2. Para mostrar las palabras que inician con A, debemos escribir el siguiente comando: grep "^A" nombres.txt
+3. Para mostrar las palabras que no contienen A, debemos escribir el siguiente comando: grep -v "^A" nombres.txt.
+4. Para redireccionar las palabras que no contienen A, aplicamos el comando: grep -v "^A" nombres.txt > nombres2.txt. A continuacion para diferenciar, utilizamos el comando diff para los dos archivos de texto: diff nombres.txt nombres2.txt.
+5. 
